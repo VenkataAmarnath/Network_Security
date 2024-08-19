@@ -4,13 +4,4 @@
  certifi
  pymongo
 
- -e . #to install local package(here: networksecurity folder)
-
- '''
- expected error: ".egg.info directory not found"
- reason: we havent  written anything in setup.py, 
- because in backend itis calling setup.py for calling 
- local package to install in local virtual environment
-
- '''
-
+ -e .
