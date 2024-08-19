@@ -2,9 +2,9 @@ import os
 import sys
 import json
 
-from dotenv import load_dotenv
-
-import certifi
+from dotenv import load_dotenv # to interacr with .env file
+ 
+import certifi  # to define security protocol whenever we are goi ng to interact with the cloud from local(expecially with mongodb), using this we can define ssl certificate for secure connection
 import pandas as pd
 import numpy as np
 import pymongo
